@@ -1,49 +1,31 @@
 package comn.example.user.termscore.model;
 
 public class Score {
-    private String StdNo;
-    private String strYears;
-    private String strTerm;
-    private String Screen_Width;
-    private String flag;
+    private String yearTerm;
+    private String name;
+    private String Score;
 
-    public String getStdNo() {
-        return StdNo;
+    public String getYearTerm() {
+        return yearTerm;
     }
 
-    public void setStdNo(String StdNo) {
-        this.StdNo = StdNo;
+    public void setYearTerm(String yearTerm) {
+        this.yearTerm = yearTerm;
     }
 
-    public String getStrYears() {
-        return strYears;
+    public String getName() {
+        return name;
     }
 
-    public void setStrYears(String strYears) {
-        this.strYears = strYears;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getStrTerm() {
-        return strTerm;
+    public String getScore() {
+        return Score;
     }
 
-    public void setStrTerm(String strTerm) {
-        this.strTerm = strTerm;
-    }
-
-    public String getScreen_Width() {
-        return Screen_Width;
-    }
-
-    public void setScreen_Width(String Screen_Width) {
-        this.Screen_Width = Screen_Width;
-    }
-
-    public String getFlag() {
-        return flag;
-    }
-
-    public void setFlag(String flag) {
-        this.flag = flag;
+    public void setScore(String score) {
+        Score = score;
     }
 }

@@ -25,7 +25,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:inputType="number" />
+            android:inputType="number"
+            android:textColor="#ff0095" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -38,7 +39,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:inputType="number" />
+            android:inputType="number"
+            android:textColor="#ff0095" />
     </LinearLayout>
 
     <LinearLayout
@@ -57,7 +59,7 @@
             android:id="@+id/edt_term_score_std_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number" />
+            android:textColor="#ff0095" />
     </LinearLayout>
 
     <Button
@@ -65,16 +67,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="2pt"
-        android:background="@drawable/btn_bg"
+        android:background="#fadeec"
         android:text="查詢"
-        android:textColor="#FFF"
+        android:textColor="#ff0095"
         android:textSize="8pt" />
 
-    <WebView
-        android:id="@+id/wv_term_score"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    </WebView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>
