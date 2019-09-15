@@ -1,1 +1,1 @@
-TermScore
+NTUB查詢學期成績App
